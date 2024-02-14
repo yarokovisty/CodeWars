@@ -1,10 +1,9 @@
 import kyu6.beggars
 import kyu6.blackOrWhiteKey
 import kyu6.findMissingLetter
-import kyu8.*
-import java.lang.Exception
+import kyu8.calculateYears
 
 fun main() {
-    println(MixedSum().sum(listOf(9, 3, "7", "3")))
-
+    val a = calculateYears(10)
+    println("${a[0]} ${a[1]} ${a[2]}")
 }
