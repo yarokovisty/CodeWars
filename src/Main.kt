@@ -5,6 +5,6 @@ import kyu8.*
 import java.lang.Exception
 
 fun main() {
-    println(Kata.expressionsMatter(1, 1, 1))
+    println(MixedSum().sum(listOf(9, 3, "7", "3")))
 
 }
