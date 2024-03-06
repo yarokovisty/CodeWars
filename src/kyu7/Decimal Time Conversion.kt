@@ -18,6 +18,14 @@ fun toIndustrial(t: String): Double {
         .toDouble()
 }
 
-fun toNormal(t: Double): Double {
-    return t * 60
+fun toNormal(t: Double): String {
+    var minutes = Math.round((t % 1) * 60)
+    var hours = t.toInt()
+
+    if (minutes == 60L) {
+        minutes = 0
+        hours++
+    }
+
+    return String.format("$hours:%02d", minutes)
 }
