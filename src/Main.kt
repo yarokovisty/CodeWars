@@ -6,6 +6,6 @@ import kyu8.*
 import java.lang.Exception
 
 fun main() {
-    println(findShort("bitcoin take over the world maybe who knows perhaps"))
+    println(maxRot(38458215))
 
 }
